@@ -4,9 +4,12 @@ tags:
   - Linux
   - Fedora
 math: true
+index_img: >-
+  https://github.com/user-attachments/assets/43172524-cf2f-4174-b674-a74b7b099ae4
+banner_img: >-
+  https://github.com/user-attachments/assets/43172524-cf2f-4174-b674-a74b7b099ae4
+abbrlink: 57c540de
 date: 2025-10-06 20:50:38
-index_img: https://github.com/user-attachments/assets/ab9d5c56-4802-4ff3-9342-2fabd4b665e6
-banner_img: https://github.com/user-attachments/assets/ab9d5c56-4802-4ff3-9342-2fabd4b665e6
 ---
 
 When I was using Arch Linux, one of my favorite packages was `snap-pac`, which works elegantly with `pacman` to create snapshots before and after any update.
