@@ -4,8 +4,8 @@
 
 # Site
 title: HuaiYuan's Programming Diary
-avatar: https://github.com/user-attachments/assets/a867a61f-7adf-43e2-a511-c7ce204d93fd
-favicon: https://github.com/user-attachments/assets/a867a61f-7adf-43e2-a511-c7ce204d93fd
+avatar: https://github.com/user-attachments/assets/aa0acdd5-614d-4c2a-9181-4740bae794c6
+favicon: https://github.com/user-attachments/assets/aa0acdd5-614d-4c2a-9181-4740bae794c6
 subtitle: ""
 description: ""
 keywords: "HuaiYuan JING"
@@ -178,7 +178,7 @@ about:
         link: "https://www.linkedin.com/in/huaiyuan-jing-823b93240/",
         tip: "GitHub",
       }
-  avatar: https://github.com/user-attachments/assets/a867a61f-7adf-43e2-a511-c7ce204d93fd
+  avatar: https://github.com/user-attachments/assets/aa0acdd5-614d-4c2a-9181-4740bae794c6
   name: "HuaiYuan Jing"
   intro: “All beings hitherto have created something beyond themselves."
 
@@ -257,7 +257,7 @@ navbar:
         name: "Link",
       }
     - {
-        key: "fox",
+        key: "",
         link: "https://itch.io/embed-upload/14850915",
         icon: "iconfont icon-gitlab-fill",
         name: "Fox",
