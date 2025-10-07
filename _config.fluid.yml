@@ -1,0 +1,287 @@
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: HuaiYuan's Programming Diary
+avatar: https://github.com/user-attachments/assets/a867a61f-7adf-43e2-a511-c7ce204d93fd
+favicon: https://github.com/user-attachments/assets/a867a61f-7adf-43e2-a511-c7ce204d93fd
+subtitle: ""
+description: ""
+keywords: "HuaiYuan JING"
+author: HuaiYuan JING
+language:
+  - en
+  - zh-CN
+timezone: ""
+
+# URL
+## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
+url: https://huaiyuan-jing.github.io/
+# permalink: :year/:month/:day/:title/
+permalink_defaults:
+pretty_urls:
+  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# Writing
+new_post_name: :title.md # File name of new posts
+default_layout: post
+titlecase: false # Transform title into titlecase
+external_link:
+  enable: true # Open external links in new tab
+  field: site # Apply to the whole site
+  exclude: ""
+filename_case: 0
+render_drafts: false
+post_asset_folder: true
+marked:
+  prependRoot: true
+  postAsset: true
+relative_link: false
+future: true
+syntax_highlighter: highlight.js
+highlight:
+  line_number: true
+  auto_detect: false
+  tab_replace: ""
+  wrap: true
+  hljs: false
+prismjs:
+  preprocess: true
+  line_number: true
+  tab_replace: ""
+
+# Home page setting
+# path: Root path for your blogs index page. (default = '')
+# per_page: Posts displayed per page. (0 = disable pagination)
+# order_by: Posts order. (Order by date descending by default)
+index_generator:
+  path: ""
+  per_page: 10
+  order_by: -date
+
+# Category & Tag
+default_category: uncategorized
+category_map:
+tag_map:
+
+# Metadata elements
+## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
+meta_generator: true
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+## updated_option supports 'mtime', 'date', 'empty'
+updated_option: "mtime"
+
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 10
+pagination_dir: page
+
+# Include / Exclude file(s)
+## include:/exclude: options only apply to the 'source/' folder
+include:
+exclude:
+ignore:
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+theme: fluid
+
+# Deployment
+## Docs: https://hexo.io/docs/one-command-deployment
+# deploy:
+#   - type: git
+#     repo: https://github.com/Huaiyuan-Jing/Huaiyuan-Jing.github.io
+#     branch: master
+#   - type: git
+#     repo: https://gitee.com/lighstrin/lighstrin.git
+#     branch: master
+
+index:
+  banner_img: https://github.com/user-attachments/assets/bcf154a6-768d-42e3-81ba-b1108af0ec53
+  banner_img_height: 50
+  banner_mask_height: 50
+  banner_mask_alpha: 0.5
+  auto_excerpt:
+    enable: true
+  slogan:
+    enable: true
+    text: 一切生物都创造过超越自身的某种东西。<br> All beings hitherto have created something beyond themselves.
+    api:
+      enable: false
+      url: "https://v1.hitokoto.cn/"
+      method: "GET"
+      headers: {}
+      keys: ["hitokoto"]
+
+post:
+  banner_img: https://github.com/user-attachments/assets/bcf154a6-768d-42e3-81ba-b1108af0ec53
+  banner_img_height: 50
+  banner_mask_alpha: 0.5
+  math:
+    enable: true
+    specific: true
+    engine: mathjax
+  comments:
+    enable: true
+    type: gitalk
+  footnote:
+    enable: true
+    header: ""
+  meta:
+    author: # 作者，优先根据 front-matter 里 author 字段，其次是 hexo 配置中 author 值
+      enable: true
+    date: # 文章日期，优先根据 front-matter 里 date 字段，其次是 md 文件日期
+      enable: true
+      format: "dddd, MMMM Do YYYY, h:mm a" # 格式参照 ISO-8601 日期格式化
+    wordcount: # 字数统计
+      enable: true
+      format: "{} words" # 显示的文本，{}是数字的占位符（必须包含)，下同
+    min2read: # 阅读时间
+      enable: true
+      format: "{} mins"
+    views: # 阅读次数
+      enable: true
+      source: "leancloud" # 统计数据来源，可选：leancloud | busuanzi   注意不蒜子会间歇抽风
+      format: "{} times"
+
+about:
+  banner_img: https://github.com/user-attachments/assets/bcf154a6-768d-42e3-81ba-b1108af0ec53
+  banner_img_height: 50
+  banner_mask_alpha: 0.5
+  icons:
+    - {
+        class: "iconfont icon-github-fill",
+        link: "https://github.com/Huaiyuan-Jing",
+        tip: "GitHub",
+      }
+    - {
+        class: "iconfont icon-linkedin-fill",
+        link: "https://www.linkedin.com/in/huaiyuan-jing-823b93240/",
+        tip: "GitHub",
+      }
+  avatar: https://github.com/user-attachments/assets/a867a61f-7adf-43e2-a511-c7ce204d93fd
+  name: "HuaiYuan Jing"
+  intro: “All beings hitherto have created something beyond themselves."
+
+links:
+  banner_img: https://github.com/user-attachments/assets/bcf154a6-768d-42e3-81ba-b1108af0ec53
+  banner_img_height: 50
+  banner_mask_alpha: 0.5
+  items:
+    - {
+        title: "Compiled Thought",
+        intro: "Author: NoNullIsInHeaven",
+        link: "https://compiled-thoughts.fyi/",
+        avatar: "https://compiled-thoughts.fyi/wp-content/uploads/2025/01/1736927147-Yunyun-with-KR-square.png",
+      }
+    - {
+        title: "Pear Core",
+        intro: "Author: SherryX",
+        link: "https://sherryxia404.github.io/",
+        avatar: "https://sherryxia.notion.site/image/attachment%3A1093951c-47eb-4780-a89a-23a3c3040912%3A011ef5b0-733a-4576-b38f-2d0fbba9f430.png?table=block&id=1a87f3ae-485f-8078-a156-e5e2cc47ea01&spaceId=df14c0e4-b455-4b26-b364-9f03d8d03162&width=330&userId=&cache=v2",
+      }
+
+tag:
+  banner_img: https://github.com/user-attachments/assets/bcf154a6-768d-42e3-81ba-b1108af0ec53
+  banner_img_height: 50
+  banner_mask_alpha: 0.5
+
+code:
+  copy_btn: true
+  highlight:
+    enable: true
+    line_number: true
+    lib: "highlightjs"
+    highlightjs:
+      style: "Github Gist"
+      bg_color: false
+    prismjs:
+      style: "default"
+      preprocess: true
+
+dark_mode:
+  enable: true
+  default: auto
+
+lazyload:
+  enable: true
+  loading_img: https://github.com/user-attachments/assets/b9833017-4a11-4f4b-b6b1-d283c15bd656
+  onlypost: false
+  offset_factor: 2
+
+navbar:
+  blog_title: Programming Diary
+  menu:
+    - { key: "home", link: "/", icon: "iconfont icon-home-fill", name: "Home" }
+    - {
+        key: "codelib",
+        link: "/codelib",
+        icon: "iconfont icon-books",
+        name: "Codelib",
+      }
+    - {
+        key: "tag",
+        link: "/tags/",
+        icon: "iconfont icon-tags-fill",
+        name: "Tag",
+      }
+    - {
+        key: "about",
+        link: "/about/",
+        icon: "iconfont icon-user-fill",
+        name: "About",
+      }
+    - {
+        key: "links",
+        link: "/links/",
+        icon: "iconfont icon-link-fill",
+        name: "Link",
+      }
+    - {
+        key: "fox",
+        link: "https://itch.io/embed-upload/14850915",
+        icon: "iconfont icon-gitlab-fill",
+        name: "Fox",
+      }
+
+gitalk:
+  clientID: "Ov23li2yI04wDQ7Iy4xP"
+  clientSecret: "d89a07029a388e53e47b4ab798955aaab2557e28"
+  repo: "huaiyuan-jing.github.io"
+  owner: "Huaiyuan-Jing"
+  admin: "Huaiyuan-Jing"
+  createIssueManually: false
+  language: "en"
+
+footer:
+  statistics:
+    enable: true
+    source: "leancloud"
+    pv_format: "Total Visited {} Times"
+    uv_format: "Total {} Unique Visitors"
+
+web_analytics:
+  enable: true
+  leancloud:
+    app_id: IzubcGArkHkhcKX0ejKCF5tN-MdYXbMMI
+    app_key: Jq398PJV3mcQVeeSc4ddYVbp
+    server_url: https://izubcgar.api.lncldglobal.com
