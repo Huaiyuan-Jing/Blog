@@ -7,6 +7,7 @@ banner_img: https://github.com/user-attachments/assets/b3aea179-9c53-4b9e-8819-7
 math: true
 abbrlink: 3dfae82
 date: 2025-08-31
+author: HackThink
 ---
 ## Problem 题面
 

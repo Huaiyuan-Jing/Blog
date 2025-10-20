@@ -7,6 +7,7 @@ banner_img: https://github.com/user-attachments/assets/bf9b0ab7-a0aa-455e-aa22-a
 math: true
 abbrlink: 54f4eb84
 date: 2025-08-31
+author: HackThink
 ---
 
 # 为什么需要FTQC资源计数器

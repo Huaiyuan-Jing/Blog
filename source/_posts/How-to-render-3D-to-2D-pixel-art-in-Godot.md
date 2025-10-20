@@ -8,6 +8,7 @@ index_img: https://github.com/user-attachments/assets/e4f921de-f066-4740-8694-8c
 banner_img: https://github.com/user-attachments/assets/e4f921de-f066-4740-8694-8cffc5367ef7
 math:
 date: 2025-09-05 16:33:06
+author: HackThink
 ---
 
 ## What is 3D to 2D Rendering?

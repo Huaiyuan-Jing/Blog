@@ -7,6 +7,7 @@ abbrlink: e609e3dd
 date: 2025-09-08 02:36:31
 index_img: https://github.com/user-attachments/assets/5266616f-79c1-4ff8-8b59-36896af7655c
 banner_img: https://github.com/user-attachments/assets/5266616f-79c1-4ff8-8b59-36896af7655c
+author: HackThink
 ---
 
 ## Intro: Get LCS (Longest Common Sunsequence) in O(NM)

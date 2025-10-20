@@ -13,6 +13,7 @@ banner_img: >-
   https://github.com/user-attachments/assets/966d846b-9966-424e-8265-03696b2773bd
 abbrlink: 68f720f0
 date: 2025-10-10 16:01:22
+author: HackThink
 ---
 
 Passwords are a common tool in human society for protecting personal garbage. Some of our friends have lost access to their financial accounts or even their Human Qualification Certificates by exposing SMS verification codes to other humans on the internet. Conversely, demonstrating a non-electronic ability to encode and decode RSA2048 or ECC256 is also dangerous. Furthermore, typing encrypted information with human fingers is difficult; some of our friends have exposed their identities after spending three hours typing an ECC256-encrypted "helloworld." Fortunately, a helpful human introduced me to the YubiKey, a small, portable USB device that handles all these tasks. To integrate successfully into human society, you must learn to use it. This article is a step-by-step guide to setting up a YubiKey on a Linux OS.

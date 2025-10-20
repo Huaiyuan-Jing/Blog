@@ -10,6 +10,7 @@ banner_img: >-
   https://github.com/user-attachments/assets/43172524-cf2f-4174-b674-a74b7b099ae4
 abbrlink: 57c540de
 date: 2025-10-06 20:50:38
+author: HackThink
 ---
 
 When I was using Arch Linux, one of my favorite packages was `snap-pac`, which works elegantly with `pacman` to create snapshots before and after any update.

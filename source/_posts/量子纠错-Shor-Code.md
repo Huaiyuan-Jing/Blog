@@ -6,7 +6,7 @@ tags:
 categories: []
 index_img: https://github.com/user-attachments/assets/6bc1e122-980d-4d1d-906f-2a8172251279
 banner_img: https://github.com/user-attachments/assets/6bc1e122-980d-4d1d-906f-2a8172251279
-author: Huaiyuan Jing
+author: HackThink
 math: true
 abbrlink: e600f8d3
 description:
