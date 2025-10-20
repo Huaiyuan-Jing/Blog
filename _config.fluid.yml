@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: HuaiYuan's Programming Diary
-avatar: https://github.com/user-attachments/assets/aa0acdd5-614d-4c2a-9181-4740bae794c6
-favicon: https://github.com/user-attachments/assets/aa0acdd5-614d-4c2a-9181-4740bae794c6
+title: HackThink
+avatar: https://avatars.githubusercontent.com/u/61653609?v=4
+favicon: https://avatars.githubusercontent.com/u/61653609?v=4
 subtitle: ""
 description: ""
-keywords: "HuaiYuan JING"
-author: HuaiYuan JING
+keywords: "HackThink"
+author: HackThink
 language:
   - en
   - zh-CN
@@ -168,18 +168,8 @@ about:
   banner_img_height: 50
   banner_mask_alpha: 0.5
   icons:
-    - {
-        class: "iconfont icon-github-fill",
-        link: "https://github.com/Huaiyuan-Jing",
-        tip: "GitHub",
-      }
-    - {
-        class: "iconfont icon-linkedin-fill",
-        link: "https://www.linkedin.com/in/huaiyuan-jing-823b93240/",
-        tip: "GitHub",
-      }
-  avatar: https://github.com/user-attachments/assets/aa0acdd5-614d-4c2a-9181-4740bae794c6
-  name: "HuaiYuan Jing"
+  avatar: https://avatars.githubusercontent.com/u/61653609?v=4
+  name: "HackThink"
   intro: “All beings hitherto have created something beyond themselves."
 
 links:
@@ -229,7 +219,7 @@ lazyload:
   offset_factor: 2
 
 navbar:
-  blog_title: Programming Diary
+  blog_title: HackThink
   menu:
     - { key: "home", link: "/", icon: "iconfont icon-home-fill", name: "Home" }
     - {
